@@ -3,9 +3,11 @@
     "type": "autoload",
     "autoload": {
         "psr-4": {
-            "DockerTask\\": "public/",
-            "App\\Mail\\": "public/Mail/"
-        }
+            "ExceptionTask\\": "public/"
+        },
+        "files": [
+            "public/func.php"
+        ]
     },
     "authors": [
         {
@@ -15,8 +17,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "psr/log": "^3.0@dev",
-        "phpmailer/phpmailer": "dev-master"
+        "psr/log": "^3.0@dev"
     },
     "require-dev": {
     }

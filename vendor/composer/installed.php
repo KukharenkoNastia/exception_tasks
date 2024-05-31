@@ -3,7 +3,7 @@
         'name' => 'nastya/docker_task',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '3a099e15b670f5e4c054249e0e07945888ad8a06',
+        'reference' => '7b8abecb5ca1c51a2d8970f291c4fd3daa9dd908',
         'type' => 'autoload',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,21 +13,10 @@
         'nastya/docker_task' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '3a099e15b670f5e4c054249e0e07945888ad8a06',
+            'reference' => '7b8abecb5ca1c51a2d8970f291c4fd3daa9dd908',
             'type' => 'autoload',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'phpmailer/phpmailer' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
-            'reference' => '06e6e8071324c856d4d63e7528443ff83f71e44a',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../phpmailer/phpmailer',
-            'aliases' => array(
-                0 => '9999999-dev',
-            ),
             'dev_requirement' => false,
         ),
         'psr/log' => array(
