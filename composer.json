@@ -16,7 +16,5 @@
     "require": {
         "psr/log": "^3.0@dev",
         "phpmailer/phpmailer": "dev-master"
-    },
-    "require-dev": {
     }
 }
