@@ -1,6 +1,6 @@
 <?php
 
-namespace DockerTask\Classes;
+namespace ExceptionTask\Classes;
 
 use Psr\Log\AbstractLogger;
 
@@ -53,4 +53,5 @@ class Logger extends AbstractLogger {
             echo $message;
         }
     }
+
 }
