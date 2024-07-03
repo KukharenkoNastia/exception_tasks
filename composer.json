@@ -17,5 +17,9 @@
         "psr/log": "^3.0@dev",
         "phpmailer/phpmailer": "dev-master",
         "filp/whoops": "^2.15"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.5.x-dev",
+        "mockery/mockery": "2.0.x-dev"
     }
 }

@@ -8,6 +8,9 @@ $baseDir = dirname($vendorDir);
 return array(
     'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/src'),
+    'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
+    'Mockery\\' => array($vendorDir . '/mockery/mockery/src/Mockery'),
     'ExceptionTask\\' => array($baseDir . '/public'),
+    'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
 );

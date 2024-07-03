@@ -4,6 +4,7 @@ namespace ExceptionTask;
 
 use ExceptionTask\Classes\Logger;
 use ExceptionTask\Exceptions\MyException;
+use Test\CalculateTest;
 
 require __DIR__ . './../vendor/autoload.php';
 
@@ -18,7 +19,8 @@ function issetVar($var): bool
 $log = new Logger();
 
 try {
-    issetVar($var);
+    $test = new CalculateTest('test');
+    $test->testAdd();
 } catch (MyException $e) {
     $log->warning($e->getMessage());
 }
